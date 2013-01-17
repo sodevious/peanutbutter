@@ -26,15 +26,15 @@
  	span.intro, time {
 		display: block;
 		font-family: "IM Fell English", serif;
+		color: #7B5F3A;
 	}
 
 	span.intro {
-		font-size: 24px;
-		letter-spacing: 2px;
+		font-size: 28px;
+		letter-spacing: 6px;
 		word-spacing: 3px;
 		padding: 80px 0px 30px 0px;
 		font-style: italic;
-		color: #3f3d27;
 	}
 
 	h1 {
@@ -44,17 +44,18 @@
 		line-height: auto;
 		word-spacing: -10px;
 		letter-spacing: -1px;
+		color: #40231D;
 	}
 
 	h2 {
-		font-size: 44px;
+		font-size: 46px;
 		font-family: "Love Ya Like A Sister", sans-serif;
 		padding: 60px 0px;
+		color: #5C311F;
 	}
 
 	time {
 		letter-spacing: 2px;
 		padding: 20px 0px 100px 0px;
 		text-transform: uppercase;
-		color: #3f3d27;
 	}
