@@ -1,15 +1,16 @@
-html { 
+@import url(http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Chelsea+Market|IM+Fell+English:400,400italic);
+
+
+/* Standard shiz */
+	
+	html { 
 		background-color: #bada55; /* Purposefully here */
-
-	background: url(../img/bg.jpeg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-} /* Thanks Mr. Coyier http://css-tricks.com/perfect-full-page-background-image */
-
-body {
-}
+		background: url(../img/bg.jpeg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	} /* Thanks Mr. Coyier http://css-tricks.com/perfect-full-page-background-image */
 
 
 /* HEADER */
@@ -17,31 +18,43 @@ body {
 	header {
 		max-width: 960px;
 		margin: 0px auto;
-		margin-top: 45px; 
+		padding-top: 10px; 
 		text-align: center;
-		background: yellow;
+		background: url(../img/paper.png) no-repeat center center; 
+	}
+
+ 	span.intro, time {
+		display: block;
+		font-family: "IM Fell English", serif;
 	}
 
 	span.intro {
-		font-size: 36px;
+		font-size: 24px;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		padding: 80px 0px 30px 0px;
+		font-style: italic;
+		color: #3f3d27;
 	}
 
 	h1 {
-		text-transform: uppercase;
-		font-size: 100px;
-	}
-
-	span.helper {
-		font-size: 30px;
-		letter-spacing: 8px;
+		text-transform: lowercase;
+		font-size: 140px;
+		font-family: "Chelsea Market", sans-serif;
+		line-height: auto;
+		word-spacing: -10px;
+		letter-spacing: -1px;
 	}
 
 	h2 {
-
+		font-size: 44px;
+		font-family: "Love Ya Like A Sister", sans-serif;
+		padding: 60px 0px;
 	}
 
 	time {
 		letter-spacing: 2px;
+		padding: 20px 0px 100px 0px;
 		text-transform: uppercase;
-
+		color: #3f3d27;
 	}
