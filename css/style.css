@@ -1,0 +1,47 @@
+html { 
+		background-color: #bada55; /* Purposefully here */
+
+	background: url(../img/bg.jpeg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+} /* Thanks Mr. Coyier http://css-tricks.com/perfect-full-page-background-image */
+
+body {
+}
+
+
+/* HEADER */
+
+	header {
+		max-width: 960px;
+		margin: 0px auto;
+		margin-top: 45px; 
+		text-align: center;
+		background: yellow;
+	}
+
+	span.intro {
+		font-size: 36px;
+	}
+
+	h1 {
+		text-transform: uppercase;
+		font-size: 100px;
+	}
+
+	span.helper {
+		font-size: 30px;
+		letter-spacing: 8px;
+	}
+
+	h2 {
+
+	}
+
+	time {
+		letter-spacing: 2px;
+		text-transform: uppercase;
+
+	}
