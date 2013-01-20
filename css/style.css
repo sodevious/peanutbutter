@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Fjalla+One|Kreon:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One|Kreon:300,400,700|Trocchi|Rancho);
 
 
 /* Standard shiz */
@@ -22,6 +22,9 @@
 		margin: 30px 0;
 		margin-right: auto;
 		margin-left: auto;
+		padding: 15px;
+		height: 380px;
+		background-color: #bada55;
 	}
 
 section:after {
@@ -49,16 +52,17 @@ section:before {
     border-radius: 0 0 0 20px;
 }
 
- 	span.intro, time {
+ 	span.intro, time,  .place span {
 		display: block;
 		font-family: 'Kreon', serif;
+		text-transform: uppercase;
+		font-weight: 700;
 		color: #7B5F3A;
 	}
 
 	span.intro {
 		font-size: 28px;
 		padding: 10px;
-		text-transform: uppercase;
 		font-weight: 400;
 	}
 
@@ -79,20 +83,68 @@ section:before {
 		word-spacing: -10px;
 		letter-spacing: -1px;
 		color: #40231D;
-	}
-
-	h2 {
-		font-size: 46px;
-		font-family: "Love Ya Like A Sister", sans-serif;
-		padding: 60px 0px;
-		color: #5C311F;
+		margin: 20px 0px;
 	}
 
 	time {
-		letter-spacing: 2px;
-		padding: 20px 0px 100px 0px;
-		text-transform: uppercase;
 	}
 
-/* ARTICLE */
+	.date, .time, .place {
+		width: 280px;
+		float: left;
+		padding: 20px;
+		font-size: 30px;
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+	}
 
+	.date h3, .time h3, .place h3 {
+		font-family: 'Trocchi';
+		font-size: 18px;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+	}
+
+	#rsvp {
+		font-family: 'Kreon', serif;
+		text-transform: uppercase;
+		font-weight: 300;
+		margin: 25px 0px 10px 0px;
+		font-size: 20px;
+	}
+
+	#rsvp a {
+		font-weight: 700;
+		text-decoration: none;
+	}
+
+/* BACK */
+
+
+	#back h2 {
+	font-family: "Fjalla One", sans-serif;
+text-transform: uppercase;
+font-size: 44px;
+letter-spacing: -1px;
+font-weight: bold;
+padding: 10px 10px 5px 10px;
+	}
+
+	#back p {
+		text-align: justify;
+				font-family: 'Kreon', serif;
+font-weight: 300;
+font-size: 30px;
+line-height: 44px;
+		padding: 10px;
+
+	}
+
+#back span {
+				font-family: 'Rancho', cursive;
+				font-size: 36px;
+position: relative;
+top: -45px;
+right: 10px;
+float: right;
+}
