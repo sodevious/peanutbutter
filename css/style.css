@@ -5,11 +5,9 @@
 	
 	html { 
 		background-color: #bada55; /* Purposefully here */
-		background: url(../img/bg.jpeg) no-repeat center center fixed; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+		background: url(../img/bedge_grunge.png) repeat; 
+-webkit-font-smoothing: antialiased;
+
 	} /* Thanks Mr. Coyier http://css-tricks.com/perfect-full-page-background-image */
 
 
@@ -24,40 +22,30 @@
 		margin-left: auto;
 		padding: 15px;
 		height: 380px;
-		background-color: #bada55;
-	}
 
-section:after {
-    content: "";
-    position: absolute !important;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    border-right: #fff 7px solid;
-    border-bottom: #fff 7px solid;
-    -moz-border-radius: 0 0 20px 0;
-    -webkit-border-radius: 0 0 20px 0;
-    border-radius: 0 0 20px 0;
-}
-section:before {
-    content: "";
-    position: absolute !important;
-    z-index: 100;
-    top: 0;
-    right: 0;
-    border-left: #fff 7px solid;
-    border-bottom: #fff 7px solid;
-    -moz-border-radius: 0 0 0 20px;
-    -webkit-border-radius: 0 0 0 20px;
-    border-radius: 0 0 0 20px;
-}
+  -moz-box-shadow:    3px 3px 5px 6px #000;
+  -webkit-box-shadow: 3px 0px 10px 6px #000;
+  box-shadow:         0px 0px 15px 0px rgba(0,0,0,0.3), inset 1px 1px 0px 0px rgba(255, 246, 141, 0.68), inset -1px -1px 0px 0px rgba(136, 95, 0, 0.5);
+
+    
+
+background-color: #FBB829; 
+   background-image: url(images/fallback-gradient.png); 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FBB829), to(#1a82f7));
+   background-image: -webkit-linear-gradient(top, #FFE545, #FBB829); 
+   background-image:    -moz-linear-gradient(top, #FFE545, #FBB829);
+   background-image:     -ms-linear-gradient(top, #FFE545, #FBB829);
+   background-image:      -o-linear-gradient(top, #FFE545, #FBB829);
+
+   	}
+
 
  	span.intro, time,  .place span {
 		display: block;
 		font-family: 'Kreon', serif;
 		text-transform: uppercase;
 		font-weight: 700;
-		color: #7B5F3A;
+		color: #573b02;
 	}
 
 	span.intro {
@@ -78,12 +66,13 @@ section:before {
 	h1 {
 		text-transform: uppercase;
 		font-size: 140px;
+		margin: 20px 0px;
 		font-family: "Fjalla One", sans-serif;
 		line-height: auto;
 		word-spacing: -10px;
 		letter-spacing: -1px;
-		color: #40231D;
-		margin: 20px 0px;
+		color: #352501;
+		text-shadow: 0px -1px 0px #feeabf;
 	}
 
 	time {
@@ -94,29 +83,47 @@ section:before {
 		float: left;
 		padding: 20px;
 		font-size: 30px;
-		border-top: 2px solid black;
-		border-bottom: 2px solid black;
+		border-top: 1px solid #bb8003;
+		border-bottom: 1px solid #bb8003;
+
+		  box-shadow:  inset 0px 1px 0px 0px rgba(255, 246, 141, 0.8),  0px 1px 0px 0px rgba(255, 246, 141, 0.8);
+
 	}
 
 	.date h3, .time h3, .place h3 {
 		font-family: 'Trocchi';
-		font-size: 18px;
+		font-size: 20px;
 		text-transform: uppercase;
 		margin-bottom: 5px;
+				color: #aa7503;
+text-shadow: 0px -1px 0px #785202;
 	}
 
 	#rsvp {
 		font-family: 'Kreon', serif;
 		text-transform: uppercase;
 		font-weight: 300;
-		margin: 25px 0px 10px 0px;
-		font-size: 20px;
+	color: #895e03;
+		margin: 18px 0px 10px 0px;
+		font-size: 24px;
 	}
 
 	#rsvp a {
 		font-weight: 700;
 		text-decoration: none;
+color: #463001;
+padding: 6px;
+display: inline-block;
+background-color: #ffd350;
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
 	}
+
+#rsvp a:hover {
+	background-color: #ffe083;
+}
 
 /* BACK */
 
@@ -128,7 +135,13 @@ font-size: 44px;
 letter-spacing: -1px;
 font-weight: bold;
 padding: 10px 10px 5px 10px;
+
+		color: #352501;
+		text-shadow: 0px -1px 0px #feeabf;
 	}
+
+
+
 
 	#back p {
 		text-align: justify;
@@ -137,6 +150,8 @@ font-weight: 300;
 font-size: 30px;
 line-height: 44px;
 		padding: 10px;
+
+		color: #463001;
 
 	}
 
@@ -147,4 +162,5 @@ position: relative;
 top: -45px;
 right: 10px;
 float: right;
+color: #251901;
 }
