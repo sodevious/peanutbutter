@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Fjalla+One|Chelsea+Market|IM+Fell+English:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One|Kreon:300,400,700);
 
 
 /* Standard shiz */
@@ -17,10 +17,11 @@
 
 	section {
 		max-width: 960px;
-		margin: 0px auto;
 		padding-top: 10px; 
 		text-align: center;
-		background: yellow;
+		margin: 30px 0;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 section:after {
@@ -50,16 +51,24 @@ section:before {
 
  	span.intro, time {
 		display: block;
-		font-family: "IM Fell English", serif;
+		font-family: 'Kreon', serif;
 		color: #7B5F3A;
 	}
 
 	span.intro {
 		font-size: 28px;
-		letter-spacing: 6px;
-		word-spacing: 3px;
-		padding: 80px 0px 30px 0px;
-		font-style: italic;
+		padding: 10px;
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+
+	span.splash {
+	   width: 105px;
+	   background: url(../img/splash.png) 0px -5px;
+	   background-size: 100px auto; 
+	   background-repeat: no-repeat;
+	   text-indent: -9999px;
+	   display: inline-block;
 	}
 
 	h1 {
